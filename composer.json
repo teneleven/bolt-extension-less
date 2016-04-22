@@ -1,5 +1,5 @@
 {
-    "name": "mosiyash/bolt-extension-less",
+    "name": "teneleven/bolt-extension-less",
     "description": "LESS support on the fly.",
     "type": "bolt-extension",
     "require": {
@@ -8,8 +8,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Nikita Mosiyash",
+            "name": "Nikita Teneleven",
             "email": "nikita.mosiyash@gmail.com"
+        },
+        {
+            "name": "Michael Mackus",
+            "email": "michaelmackus@gmail.com"
         }
     ],
     "autoload": {
@@ -17,7 +21,7 @@
             "init.php"
         ],
         "psr-4": {
-            "Bolt\\Extension\\Mosiyash\\Less\\": ""
+            "Bolt\\Extension\\Teneleven\\Less\\": ""
         }
     },
     "extra": {

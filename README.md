@@ -6,7 +6,7 @@ Compile `.less` files to `.css` files on the fly.
 Initial Set Up
 --------------
 
-The first step is to edit your `bolt-extension-less.mosiyash.yml` file and define the files you want
+The first step is to edit your `bolt-extension-less.teneleven.yml` file and define the files you want
 to compile.
 
 An example would be:

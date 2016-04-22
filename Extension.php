@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolt\Extension\Mosiyash\Less;
+namespace Bolt\Extension\Teneleven\Less;
 
 use Bolt\BaseExtension;
 
@@ -15,7 +15,7 @@ class Extension extends BaseExtension
         foreach ($this->getConfig()['convert'] as $input => $output) {
             $input = $this->app['paths']['web'] . $this->app['paths']['theme'] . $input;
             $output = $this->app['paths']['web'] . $this->app['paths']['theme'] . $output;
-            $hashId = 'bot-extension-less.mosiyash.' . $input;
+            $hashId = 'bot-extension-less.teneleven.' . $input;
 
             if (!file_exists(dirname($output))) {
                 throw new \RuntimeException('Directory ' . dirname($output) . ' doesn\'t exists', 1);

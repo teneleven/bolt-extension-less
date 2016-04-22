@@ -1,5 +1,5 @@
 <?php
 
-namespace Bolt\Extension\Mosiyash\Less;
+namespace Bolt\Extension\Teneleven\Less;
 
 $app['extensions']->register(new Extension($app));
