@@ -56,7 +56,7 @@ class Extension extends BaseExtension
 
     public function getName()
     {
-        return "LESS";
+        return "bolt-extension-less";
     }
 
 }
