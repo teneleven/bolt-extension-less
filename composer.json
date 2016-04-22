@@ -3,7 +3,8 @@
     "description": "LESS support on the fly.",
     "type": "bolt-extension",
     "require": {
-        "bolt/bolt": ">=2.0.0,<3.0.0"
+        "bolt/bolt": ">=2.0.0,<3.0.0",
+        "oyejorge/less.php": "~1.7.0.9"
     },
     "license": "MIT",
     "authors": [
