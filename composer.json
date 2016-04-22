@@ -2,6 +2,12 @@
     "name": "teneleven/bolt-extension-less",
     "description": "LESS support on the fly.",
     "type": "bolt-extension",
+    "repositories": {
+        "oyejorge-less": {
+            "type": "vcs",
+            "url": "https://github.com/oyejorge/less.php.git"
+        }
+    },
     "require": {
         "bolt/bolt": ">=2.0.0,<3.0.0",
         "oyejorge/less.php": "~1.7.0.9"
